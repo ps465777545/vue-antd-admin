@@ -142,7 +142,7 @@ module.exports = {
 ```
 然后，在 vue.config.js 文件中配置代理：
 ```js
-model.exports = {
+module.exports = {
   devServer: {
     proxy: {
       '/api': {               //此处要与 /services/api.js 中的 API_PROXY_PREFIX 值保持一致
